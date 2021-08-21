@@ -59,8 +59,8 @@ function Project() {
                     <Col sm={{ span: 3, offset: 1}}>
                         <h2 className="project-title">E.V.E.N.T.S</h2>
                         <img src={horiseonImg} className="project-img" alt="events"></img>
-                        {/* <a href="https://apratt7891.github.io/Horiseon-Code-Refactor/"><h4>Link to Application</h4></a>
-                        <a href="https://github.com/apratt7891/Horiseon-Code-Refactor"><h4>GitHub Repository</h4></a> */}
+                        <a href="https://e-v-e-n-t-s.herokuapp.com/"><h4>Link to Application</h4></a>
+                        <a href="https://github.com/Teller35/project-events"><h4>GitHub Repository</h4></a>
                     </Col>
                 </Row>
             </Container>

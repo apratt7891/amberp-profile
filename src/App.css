@@ -1,38 +1,163 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  color:orange;
+  background-color: papayawhip;
+}
+
+footer {
+  padding-bottom: 15%;
+  background-color: papayawhip;
+}
+
+.links {
+  color: rgb(0, 195, 255);
+}
+
+.title {
+  color: rgb(0, 195, 255);
+}
+
+.bio {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.avatar {
+  max-width: 25%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.bio-text {
+  color: #28262c;
+  font-size: 25px;
+}
+
+.project {
+  text-align: center;
+  background-color: #998fc7;
+}
+
+.project-img {
+  width: 110%;
+  padding-right: 5%;
+}
+
+.project-header {
+  text-align: center;
+}
+
+.foot {
+  text-align: center;
+}
+
+.footer-header {
+  text-align: center;
+}
+
+.fb-icon {
+  max-width: 15%;
+}
+
+.li-icon {
+  max-width: 30%;
+  padding-bottom: 5%;
+}
+
+.gh-icon {
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+.contact-info {
+  font-size: 30px;
+}
+
+.resume-link {
+  font-size: 30px;
+}
+
+.navActive {
+  color: yellow;
+}
+
+/* Media queries */
+@media screen and (max-width: 992px) {
+  .title {
+    font-size: 28px;
+  }
+  .links {
+    font-size: 20px;
+  }
+  .bio-text {
+    font-size: 18px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  .links {
+    font-size: 13px;
+  }
+  .bio-text {
+    font-size: 15px;
+  }
+  .gh-icon {
+    max-width: 20%;
+  }
+  .contact-info {
+    font-size: 20px;
+  }
+  .footer-header {
+    font-size: 30px;
+  }
+  footer {
+    padding-bottom: 18%;
+  }
+  .list-title {
+    font-size: 20px;
+  }
+  .list-items {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .title {
+    font-size: 15px;
+  }
+  .links {
+    font-size: 12px;
+  }
+  .bio-text {
+    font-size: 13px;
+  }
+  footer {
+    padding-bottom: 32%;
+  }
+  .project-img {
+    width: 105%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .title {
+    font-size: 10px;
+  }
+  .links {
+    font-size: 7px;
+  }
+  .bio-text {
+    font-size: 10px;
+  }
+  footer {
+    padding-bottom: 77%;
   }
 }
