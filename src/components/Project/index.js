@@ -9,6 +9,7 @@ import techImg from '../../assets/images/tech.png';
 import noteTakerImg from '../../assets/images/note.png';
 import weatherImg from '../../assets/images/weather.png';
 import horiseonImg from '../../assets/images/Horiseon.png';
+import eventsImg from '../../assets/images/Events.png';
 
 function Project() {
     return (
@@ -58,7 +59,7 @@ function Project() {
                     </Col>
                     <Col sm={{ span: 3, offset: 1}}>
                         <h2 className="project-title">E.V.E.N.T.S</h2>
-                        <img src={horiseonImg} className="project-img" alt="events"></img>
+                        <img src={eventsImg} className="project-img" alt="events"></img>
                         <a href="https://e-v-e-n-t-s.herokuapp.com/"><h4>Link to Application</h4></a>
                         <a href="https://github.com/Teller35/project-events"><h4>GitHub Repository</h4></a>
                     </Col>
